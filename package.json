@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "worker": "node worker.mjs"
   },
   "dependencies": {
+    "amqplib": "^2.4.1",
+    "dotenv": "^18.0.10",
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"
